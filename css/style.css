@@ -19,6 +19,10 @@ p {
   color: rgb(80, 12, 12);
 }
 
+i {
+  color: #2fccd0;
+}
+
 /* --------------------- header starts------------------ */
 .header {
   width: 100%;
@@ -90,7 +94,38 @@ p {
 }
 
 /* --------------------- header cards ends------------------ */
+
+/* --------------------- Services Offers Start------------------ */
+.service-offers {
+  background-color: #f7f7f9;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
 .myskills {
-  margin-left: 10%;
+  margin-left: 10px;
   padding: 10px 0;
+}
+
+.myskills h5 {
+  color: #535151;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+.progress {
+  height: 0.7rem !important;
+  margin-bottom: 14px;
+}
+
+.service-div h5{
+  line-height: 1;
+  word-spacing: 2px;
+  margin: 25px 0 15px 0;
+}
+
+.service-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
