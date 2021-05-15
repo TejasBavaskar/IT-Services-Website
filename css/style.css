@@ -129,3 +129,14 @@ i {
   justify-content: center;
   align-items: center;
 }
+/* --------------------- Services Offers Ends------------------ */
+
+/* --------------------- Client Count Start------------------ */
+.client-count-box {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+/* --------------------- Client Count Ends------------------ */
